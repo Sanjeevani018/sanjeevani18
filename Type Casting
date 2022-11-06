@@ -1,0 +1,19 @@
+//Type Casting ..narrowing or explicit conversion
+
+
+import java.util.*;
+
+public class javabasics {
+      public static void main(String args[])
+      {
+        /*float a=25.12f;
+        int b=(int) a;
+        System.out.println(b);*/
+
+
+        char ch ='a';
+        int number =ch;
+        System.out.println(number);//ascii number will be printed
+      }
+
+}
