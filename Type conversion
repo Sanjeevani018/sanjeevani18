@@ -1,4 +1,4 @@
-//Type conversion
+//Type conversion..widening or implicit conversion
 
 /*a)type  compatible
  *b)destination type >source type
