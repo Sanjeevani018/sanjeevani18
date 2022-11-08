@@ -1,0 +1,212 @@
+//operator: symbol which tells compiler to perform certain operation
+//Arithmetic operator:1)Binary - + - * / % 
+                       //2)unary ++ --
+                      // a)pre increment: value change & then value use
+                       //b)post increment: value used & then change
+//Relational operator:
+//logical operator:
+//Bitwise operator
+//Assignment operator:
+
+
+//binary
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+      int A =10;
+      int B =5;
+      System.out.println("add:"+(A-B));//for other just change operator
+    }
+}
+
+
+//unary
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+      int a =10;
+      int b =++a;// a)pre increment: value change & then value use
+      System.out.println(a);
+      System.out.println(b);
+    }
+}
+
+
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+      int a =10;
+      int b =a++;//b)post increment: value used & then change
+      System.out.println(a);
+      System.out.println(b);
+    }
+}
+
+
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+      int a =10;
+      int b =--a;//c)pre decrement : value change and then use
+      System.out.println(a);
+      System.out.println(b);
+    }
+}
+
+
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+      int a =10;
+      int b =a++;//post decrement : value used then change
+      System.out.println(a);
+      System.out.println(b);
+    }
+}
+
+
+//relational
+
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+        int a=10;
+        int b =10;
+        System.out.println(a==b);//equal
+    }
+}
+
+
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+        int a=10;
+        int b =5;
+        System.out.println(a!=b);// not equal
+    }
+}
+
+
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+        int a=10;
+        int b =5;
+        System.out.println(a>b);// greater than
+    }
+}
+
+
+
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+        int a=10;
+        int b =15;
+        System.out.println(a<b);// less than
+    }
+}
+
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+        int a=10;
+        int b =10;
+        System.out.println(a<=b);// less than and equal 
+    }
+}
+
+
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+        int a=10;
+        int b =10;
+        System.out.println(a>=b);// greater and equal 
+    }
+}
+
+
+// &&-AND T T T ,  ||-OR F F F  , !-NOT 
+
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+        
+        System.out.println((3>2) && (5<7));
+    }
+}
+
+
+
+
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+        
+        System.out.println((3<2) || (5>7));
+    }
+}
+
+
+
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+        
+        System.out.println(!(3<2));
+    }
+}
+
+
+
+// assignment
+
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+        int A=10;
+        //A=A+10;
+        A += 10;
+
+        int B=10;
+        //B = B - 10;
+        B -=10;
+        System.out.println(A);
+        System.out.println(B);
+    }
+}
+
+
+
+import java.util.*;
+
+public class javabasics{
+    public static void main(String args[]){
+        int B=5;
+        B *= 5;
+        System.out.println(B);
+        int A=5;
+        A /= 5;
+        System.out.println(A);
+        int C=5;
+        C %= 5;
+        System.out.println(C);
+      
+    }
+}
