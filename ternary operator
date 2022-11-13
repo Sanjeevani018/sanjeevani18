@@ -10,3 +10,16 @@ public class javabasics{
         
 }
 }
+
+
+
+public class javabasics{
+    public static void main(String args[]){
+  //ternary operator :- variable = condition?statement1(true):statement2(false)
+    int marks=88;
+
+    String status=(marks>=33) ? "Pass" : "fail";
+    System.out.println(status);
+        
+}
+}
