@@ -1,0 +1,33 @@
+// print Reverse of a number
+
+public class javabasics{
+    public static void main(String args[]){
+      
+      int n=27042003;
+      while(n > 0){
+
+        int lastDigit = n % 10;
+        System.out.print(lastDigit); // print  last digit
+       n=n/10;
+      }
+       System.out.println(); //remove lastdigit
+    }
+}
+   
+   
+   //Reverse the given no.
+   
+  
+public class javabasics{
+    public static void main(String args[]){
+     int n=27042003;
+      int rev=0;
+     while(n>0){
+        int lastDigit=n%10;
+        rev=(rev*10)+ lastDigit;
+        n=n/10;
+        
+
+     }System.out.println(rev);
+    }
+}
