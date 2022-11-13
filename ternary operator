@@ -1,0 +1,12 @@
+
+
+public class javabasics{
+    public static void main(String args[]){
+  int num =4;
+  //ternary operator :- variable = condition?statement1(true):statement2(false)
+
+  String type=(num%2==0)?"even":"odd";
+  System.out.println(type);
+        
+}
+}
